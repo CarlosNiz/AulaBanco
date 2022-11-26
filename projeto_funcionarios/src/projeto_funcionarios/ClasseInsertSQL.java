@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 public class ClasseInsertSQL {
 	
 	public void salvarDados(ClasseFuncionarios funcionario) {	
-		String insert_sql = "INSERT INTO tabela_banco VALUES(default, ?, ?)";
+		String insert_sql = "INSERT INTO tabela_funcionarios VALUES(default, ?, ?)";
 		Connection acesso = null; // import java.sql
 		PreparedStatement preparar = null; // import java.sql
 		

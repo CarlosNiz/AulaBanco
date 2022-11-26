@@ -8,7 +8,7 @@ public class ClasseDadosConexao {
 
 	private static final String USERNAME = "root"; 
 	private static final String PASSWORD = "etec"; 
-	private static final String DATABASE_URL = "jdbc:mysql:/localhost:3306/banco_funcionarios";
+	private static final String DATABASE_URL = "jdbc:mysql://localhost:3306/banco_funcionarios";
 	
 	/*
 	public static Connection criarConexao() throws Exception{
